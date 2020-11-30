@@ -6,20 +6,22 @@
     <statement :modalHide="isModalHide">
       <template slot="title">Game rule description</template>
       <template slot="content">
-        <p>1. 哦對了 ! 必須先告訴大家，這是一個猜歌遊戲 !</p>
+        <p>1. 歡迎您 ! 這是一個猜歌遊戲 !</p>
         <p>2. 為確保音樂題庫的多樣性及良好遊戲體驗，<br>
         稍後請先選擇一位您<span class="text-danger"> 最喜歡 </span>
         或<span class="text-danger"> 最常聽 </span>他作品的「歌手」。</p>
         <p>3. 接著，透過 <a target="_blank" href="https://docs-zhtw.kkbox.codes/#overview">KKBOX Open API</a>
-        會找出與您選定歌手相似的其他歌手，並且從這些歌手們的作品中組合出一份隨機題庫。
+        會找出與您選定歌手相似的其他歌手，並且從這些歌手們的作品中組合出一份隨機題庫(十題)。
         </p>
-        <p>4. 請注意 ! 您選定的歌手並不會影響他在題庫出現的次數，而是決定這份題庫中所出現其他歌手的相似度。
+        <p>4. <span class="text-danger">注意 ! 您選定的歌手並不會影響他的歌曲在題庫中出現的次數</span>，而是決定這份題庫中所出現其他歌手的相似度。
         </p>
-        <p>5. 請在最佳網路環境中運行此網頁，以確保您的使用體驗 !
+        <p>5. 遊戲一共有十道選擇題，答題選項共有 6 項，作答時間不拘。如果想即時中斷程序，可使用右上角返回按鈕哦 !
+        </p>
+        <p>6. 目前播放器自動播放功能暫不支援手機瀏覽器，請移至 PC 網頁並且在最佳網路環境中運行此網頁，以確保您的使用體驗 !
         </p>
         <hr>
         <small>注意事項：<br>如果您選定的歌手，無法透過 <a target="_blank" href="https://docs-zhtw.kkbox.codes/#overview">KKBOX</a>
-        資料庫中組合出足夠數量的題庫
+        資料庫中組合出足夠數量的題庫時
         <br>(即特色相近、性質類似的歌手不足之情況) 系統將會返回步驟，要求更換歌手選項!
         </small>
       </template>

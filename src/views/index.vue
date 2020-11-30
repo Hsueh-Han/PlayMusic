@@ -12,8 +12,9 @@
           <a target="_blank" href="https://www.kkbox.com/tw/tc/">KKBOX 官方</a>
           <span>。</span>
         </p>
+        <p>四、進入準備介面後，請詳閱說明內容。</p>
         <hr>
-        <small class="d-block">開發者：<em>Hseuh</em></small>
+        <small class="d-block">開發者：<em>Hsueh</em></small>
         <small class="d-block">e-mail：<em>cookie5year@gmail.com</em></small>
       </template>
     </statement>
