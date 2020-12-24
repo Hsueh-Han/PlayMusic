@@ -24,7 +24,8 @@
     </h1>
     <button type="button" class="btn btn-outline-danger btn-lg w-50 mx-auto"
     :disabled="!data.token" @click="goGuide">
-      Enter Game
+      <span v-if="!data.token"><i class="fas fa-circle-notch fa-spin mr-2"></i>Loading</span>
+      <span v-if="data.token">PLAY !</span>
     </button>
   </div>
 </template>
